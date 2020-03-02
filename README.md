@@ -23,7 +23,7 @@ Create a loop where a laptop  triggers code execution on an IoT device which tri
 
 * results - contains the raw measurements of latency in nanoseconds
 
-* analysis - contains an estimated normal distribution of a sample of 45 measurements
+* analysis - contains an estimated normal distribution of the samples
 
 
 # Running the solution
