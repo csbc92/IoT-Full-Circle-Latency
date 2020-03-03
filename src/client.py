@@ -19,9 +19,6 @@ ser_sensor = serial.Serial(
     bytesize=serial.EIGHTBITS
 )
 
-#ser_led.open()
-#ser_sensor.open()
-
 def led_thread():
     sendZero = True
 
@@ -43,7 +40,7 @@ def sensor():
     file_object.write("latency ns\n")
 
     while True:
-        ser_sensor.readline()
+        ser_sensor.readline() # Blocking until line is received
         latency = str(time.time_ns() - send_time)
         file_object.write(latency + "\n")
 
