@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Full-Circle-Latency", "Full-Circle-Latency\Full-Circle-Latency.csproj", "{12AA85DB-48FE-4D38-BCBA-1BE861A1D6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12AA85DB-48FE-4D38-BCBA-1BE861A1D6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AA85DB-48FE-4D38-BCBA-1BE861A1D6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AA85DB-48FE-4D38-BCBA-1BE861A1D6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AA85DB-48FE-4D38-BCBA-1BE861A1D6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
